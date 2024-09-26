@@ -3,7 +3,7 @@
 
 int main(){
     char str[1000];
-    printf("Enter a string: ");
+    printf("Insira uma String: ");
     fgets(str, sizeof(str), stdin);
     int length = strlen(str);
     if(str[length - 1] == '\n') length--;
