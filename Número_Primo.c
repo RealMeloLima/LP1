@@ -3,7 +3,7 @@
 
 int main(){
     int number, isPrime = 1;
-    printf("Enter an integer: ");
+    printf("Insira um número primo: ");
     scanf("%d", &number);
     if(number <= 1){
         isPrime = 0;
